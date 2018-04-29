@@ -2,13 +2,7 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-public class WorldServer : MonoBehaviourSingleton<WorldServer>
+public class WorldManager : MonoBehaviourSingleton<WorldManager>
 {
-    
-}
-
-
-public class WorldClient : MonoBehaviourSingleton<WorldClient>
-{
-    
+	public Material[] GrassMaterials;
 }
