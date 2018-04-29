@@ -6,7 +6,7 @@ public class WorldManager : MonoBehaviourSingleton<WorldManager>
 {
 	public Material[] GrassMaterials;
 	public Material[] TreeMaterials;
-
+	public GameObject TreePrefab = null;
 	private List<WorldObject> WorldObjects = new List<WorldObject>();
 	private WorldObjectInitCache WorldObjectInit = new WorldObjectInitCache();
 

@@ -22,6 +22,7 @@ GameObject:
   - component: {fileID: 114571686502040534}
   - component: {fileID: 114210318845440046}
   - component: {fileID: 114167502405460444}
+  - component: {fileID: 114002341864060304}
   m_Layer: 0
   m_Name: Managers
   m_TagString: Untagged
@@ -42,6 +43,26 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &114002341864060304
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1336592931033226}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 52960dfc72a02b34c8b6f86fd4c43469, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  GrassMaterials:
+  - {fileID: 2100000, guid: ecd23d2f37e97d440ad9a2df4453cc70, type: 2}
+  - {fileID: 2100000, guid: ea947c5f474eb314f8b1eb7977fca919, type: 2}
+  - {fileID: 2100000, guid: bd2623580cd7e4d47aa588acc41d3a18, type: 2}
+  - {fileID: 2100000, guid: 8b3a6087e83270447b1b3b0a48d572c0, type: 2}
+  TreeMaterials:
+  - {fileID: 2100000, guid: 56924f14a0e8e9f4e8f61f7290503847, type: 2}
+  - {fileID: 2100000, guid: 507ad6b11d9a0e14bb73a5dc9c7089de, type: 2}
+  TreePrefab: {fileID: 1739010402232204, guid: 33f2505ff3ba1704ba0a498040e254a4, type: 2}
 --- !u!114 &114167502405460444
 MonoBehaviour:
   m_ObjectHideFlags: 1
