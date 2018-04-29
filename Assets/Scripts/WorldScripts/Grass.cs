@@ -24,7 +24,6 @@ public class Grass : MonoBehaviour
 		Vector2 size = new Vector2( bounds.max.x - bounds.min.x, bounds.max.z - bounds.min.z );
 		float area = size.x * size.y;
 		float trees = area / areaPerTree;
-		Debug.Log( "Spawning " + trees + " trees." );
 		float localX = bounds.min.x;
 		float localY = transform.position.y;
 		float localZ = bounds.min.z;
